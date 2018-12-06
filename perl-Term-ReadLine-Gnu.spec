@@ -4,7 +4,7 @@
 #
 Name     : perl-Term-ReadLine-Gnu
 Version  : 1.35
-Release  : 3
+Release  : 4
 URL      : https://cpan.metacpan.org/authors/id/H/HA/HAYASHI/Term-ReadLine-Gnu-1.35.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/H/HA/HAYASHI/Term-ReadLine-Gnu-1.35.tar.gz
 Summary  : 'Perl extension for the GNU Readline/History Library'
