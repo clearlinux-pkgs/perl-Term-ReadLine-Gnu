@@ -4,7 +4,7 @@
 #
 Name     : perl-Term-ReadLine-Gnu
 Version  : 1.42
-Release  : 23
+Release  : 24
 URL      : https://cpan.metacpan.org/authors/id/H/HA/HAYASHI/Term-ReadLine-Gnu-1.42.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/H/HA/HAYASHI/Term-ReadLine-Gnu-1.42.tar.gz
 Summary  : 'Perl extension for the GNU Readline/History Library'
@@ -111,44 +111,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/Term/ReadLine/Gnu.pm
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/Term/ReadLine/Gnu/XS.pm
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/Gnu.so
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/Tk_getc.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/_ch_wrapper.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/_str2fn.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/_str2map.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/_tgetstrs.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/_trp_completion_function.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/autosplit.ix
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/change_ornaments.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/display_readline_version.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/get_history_event.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/hist_arg_extract.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/hist_list.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/history_expand_line.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/list_completion_function.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/operate_and_get_next.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/ornaments.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/rl_add_funmap_entry.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/rl_bind_key.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/rl_bind_key_if_unbound.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/rl_bind_keyseq.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/rl_bind_keyseq_if_unbound.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/rl_call_function.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/rl_completion_mode.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/rl_copy_keymap.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/rl_discard_keymap.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/rl_filename_list.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/rl_generic_bind.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/rl_invoking_keyseqs.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/rl_macro_bind.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/rl_message.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/rl_set_key.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/rl_set_keymap.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/rl_tty_set_default_bindings.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/rl_tty_unset_default_bindings.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/shadow_redisplay.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/unbind_command.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/unbind_function.al
-/usr/lib/perl5/vendor_perl/5.34.0/x86_64-linux-thread-multi/auto/Term/ReadLine/Gnu/XS/unbind_key.al
+/usr/lib/perl5/*
