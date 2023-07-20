@@ -4,10 +4,10 @@
 # Using build pattern: cpan
 #
 Name     : perl-Term-ReadLine-Gnu
-Version  : 1.45
-Release  : 28
-URL      : https://cpan.metacpan.org/authors/id/H/HA/HAYASHI/Term-ReadLine-Gnu-1.45.tar.gz
-Source0  : https://cpan.metacpan.org/authors/id/H/HA/HAYASHI/Term-ReadLine-Gnu-1.45.tar.gz
+Version  : 1.46
+Release  : 29
+URL      : https://cpan.metacpan.org/authors/id/H/HA/HAYASHI/Term-ReadLine-Gnu-1.46.tar.gz
+Source0  : https://cpan.metacpan.org/authors/id/H/HA/HAYASHI/Term-ReadLine-Gnu-1.46.tar.gz
 Summary  : 'Perl extension for the GNU Readline/History Library'
 Group    : Development/Tools
 License  : Artistic-1.0-Perl
@@ -62,8 +62,8 @@ perl components for the perl-Term-ReadLine-Gnu package.
 
 
 %prep
-%setup -q -n Term-ReadLine-Gnu-1.45
-cd %{_builddir}/Term-ReadLine-Gnu-1.45
+%setup -q -n Term-ReadLine-Gnu-1.46
+cd %{_builddir}/Term-ReadLine-Gnu-1.46
 
 %build
 export http_proxy=http://127.0.0.1:9/
